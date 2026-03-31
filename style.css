@@ -1,3 +1,4 @@
+/* 全体 */
 body {
     font-family: "Segoe UI", sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     color: #e5e5e5;
 }
 
+/* ヒーローヘッダー */
 .hero {
     padding: 60px 20px;
     text-align: center;
@@ -12,11 +14,7 @@ body {
     border-bottom: 2px solid #0af;
 }
 
-.logo {
-    width: 120px;
-    margin-bottom: 20px;
-}
-
+/* ナビバー */
 .navbar {
     background: #000;
     padding: 12px;
@@ -30,15 +28,35 @@ body {
     font-weight: bold;
 }
 
+/* メイン */
 main {
     padding: 30px;
     max-width: 900px;
     margin: auto;
 }
 
+/* フッター */
 footer {
     text-align: center;
     padding: 20px;
     background: #111;
     margin-top: 40px;
+}
+
+/* GitHub アイコン（右上固定） */
+.github-link {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.github-link svg {
+    fill: #fff;
+    opacity: 0.8;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.github-link svg:hover {
+    opacity: 1;
 }
