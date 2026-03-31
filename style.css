@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #0b0b0b;
+    color: #e5e5e5;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+    background: #111;
+    border-bottom: 2px solid #0af;
+}
+
+nav {
+    background: #000;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #0af;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    margin-top: 40px;
+}
